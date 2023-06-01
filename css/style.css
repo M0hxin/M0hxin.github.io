@@ -679,11 +679,11 @@ section {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 2rem;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .about .box-container .box {
@@ -732,13 +732,13 @@ section {
       border-top: var(--border);
       border-bottom: var(--border);
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-              clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
       -webkit-transition: .2s linear;
       transition: .2s linear;
     }
     .header .navbar.active {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-              clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
     .header .navbar a {
       display: block;
@@ -756,8 +756,8 @@ section {
     }
     .home .slide {
       -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
     }
     .home .slide .content {
       text-align: center;
